@@ -5,7 +5,7 @@ Funcionalidade: Cadastro
     Quero fazer o meu cadastro no RockLov
     Para que eu possa disponibilizá-los para locação
 
-    @mcgyver
+    @cadastro
     Cenario: Fazer cadastro
 
         Dado que acesso a página de cadastro
