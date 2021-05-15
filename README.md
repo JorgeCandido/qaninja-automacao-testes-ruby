@@ -1,5 +1,5 @@
 # Curso de automação de testes em Ruby + Web (Frontend e Backend) + DevOps com Jenkins e Docker 
- **Bootcamp Online - Automação 180 desenvolvido pela QAninja Academy - https://qaninja.academy/**
+ **Curso Online - Automação 180 desenvolvido pela QAninja Academy - https://qaninja.academy/**
 
 ## Cronograma do Curso
 * Módulo: Introdução
