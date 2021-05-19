@@ -1,5 +1,5 @@
 Dado('que acesso a página de cadastro') do
-    visit "http://rocklov-web:3000/signup"
+    visit "/signup"
 end
 
 Quando('submeto o seguinte formulário de cadastro:') do |table|
@@ -19,12 +19,5 @@ Quando('submeto o seguinte formulário de cadastro:') do |table|
 
     click_button "Cadastrar"
 end
-
-Então('sou redirecionado para o Dashboard') do
-    expect(page).to have_css ".dashboard"
-end
   
-Então('vejo a mensagem de alerta: {string}') do |expect_alert|
-    alert = find(".alert-dark") 
-    expect(alert.text).to eql expect_alert
-end
+
