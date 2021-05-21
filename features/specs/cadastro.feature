@@ -8,9 +8,11 @@ Funcionalidade: Cadastro
     @cadastro
     Cenario: Fazer cadastro
 
+        
         Dado que acesso a página de cadastro
+        # A tabela abaixo foi criada como sendo: coluna e linhas
         Quando submeto o seguinte formulário de cadastro:
-            | nome          | email                  | senha  |
+            | nome          | email                  | senha  | 
             | Jorge Candido | jorgecandido@gmail.com | pwd123 |
         Então sou redirecionado para o Dashboard
 
