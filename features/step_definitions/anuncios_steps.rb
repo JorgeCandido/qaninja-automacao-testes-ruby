@@ -1,13 +1,9 @@
 Dado('que estou logado como {string} e {string}:') do |email, password|
     #variável global de email utilizada para passar por parâmetro no momento da deleção
     @email = email
-    
-    visit "/"
 
-    find("input[placeholder='Seu e-email']").set email
-    find("input[type=password]").set password
-
-    click_button "Entrar"
+    @login_page.open
+    @login_page.with(email, password)
 end
   
 Dado('que acesso o formulario de cadastro de Anúncios') do
